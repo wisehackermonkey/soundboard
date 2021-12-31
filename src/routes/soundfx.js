@@ -27,6 +27,9 @@ export const soundfx = [
 
 
     { "name": "cuek", "url": "cuek", "color": "#ffffff" },
+    { "name": "ding-sound-effect", "url": "ding-sound-effect_2", "color": "#DA4167" },
+    { "name": "sonic ring", "url": "26f8b9_sonic_ring_sound_effect", "color": "#DA4167" },
+
     { "name": "mario jump", "url": "mario-jump", "color": "#DA4167" },
     { "name": "mario 1 up", "url": "mario-1-up", "color": "#DA4167" },
     { "name": "punch1", "url": "punch", "color": "#DA4167" },
@@ -43,7 +46,6 @@ export const soundfx = [
     { "name": "Sucess: family feud good answer", "url": "family-feud-good-answer", "color": "#DA4167" },
     { "name": "hitmarkermp3", "url": "hitmarker_2", "color": "#DA4167" },
     { "name": "bongo feet", "url": "bongo-feet", "color": "#DA4167" },
-    { "name": "sonic ring", "url": "26f8b9_sonic_ring_sound_effect", "color": "#DA4167" },
     { "name": "sad trombone", "url": "sad-trombone", "color": "#DA4167" },
     { "name": "dun dun", "url": "dun-dun", "color": "#DA4167" },
     { "name": "ka ching", "url": "ka-ching", "color": "#DA4167" },
@@ -56,7 +58,6 @@ export const soundfx = [
 
 
     { "name": "error sound", "url": "error_CDOxCYm", "color": "red" },
-    { "name": "ding-sound-effect", "url": "ding-sound-effect_2", "color": "red" },
 
     { "name": "censor beep 1", "url": "censor-beep-1", "color": "red" },
     { "name": "censor beep 2", "url": "censor-beep-2", "color": "red" },

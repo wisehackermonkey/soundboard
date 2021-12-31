@@ -4,8 +4,8 @@
 	let dispatch = createEventDispatcher();
 	
 	const icons = {
-		play: "https://www.myinstants.com/media/images/transparent_button_normal.png.pagespeed.ce._PQuVSQuHh.png",
-		pause: "https://www.myinstants.com/media/images/transparent_button_pressed.png.pagespeed.ce.aQzxIVJ9pw.png"
+		play: "/button_normal.png",
+		pause: "/button_pressed.png"
 	}
 	
   export let isPlaying;

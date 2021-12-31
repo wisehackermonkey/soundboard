@@ -1,8 +1,7 @@
 <script>
 	export let path = '';
 	export let color = "";
-	// ;// = {"name":"","url":"https://www.myinstants.com/media/sounds/owenwowson5.mp3"};
-	export let title = '';
+ 	export let title = '';
 	import TrackHeading from '$lib/TrackHeading.svelte';
 	import Controls from '$lib/Controls.svelte';
 	import { onMount } from 'svelte';
