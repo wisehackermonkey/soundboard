@@ -23,8 +23,7 @@
 <style>
 	
 	
-	button {
-/* 		width: 37px; */
+	button { 
 		border: none;
 		font-size: 2.3rem;
 		padding: 0;

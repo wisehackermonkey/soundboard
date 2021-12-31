@@ -14,7 +14,7 @@
 </footer>
 
 <style>
-	main {
+	/* main {
 		flex: 1;
 		display: flex;
 		flex-direction: column;
@@ -41,5 +41,5 @@
 		footer {
 			padding: 40px 0;
 		}
-	}
+	} */
 </style>

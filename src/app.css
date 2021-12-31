@@ -107,14 +107,16 @@ button:focus:not(:focus-visible) {
 }
  */
 
- 
+/*  
 .masonry-root {
 	display: flex;
-	height: 300px; /* Or whatever */
+	height: 300px;  
+	width: 1000px;
+	flex-grow: row wrap;
 }
   
 .masonry-cell{
-	width: 100px;  /* Or whatever */
-  height: 100px; /* Or whatever */
-  margin: auto;  /* Magic! */
-}
+	width: 100px;   
+  height: 100px;  
+  margin: auto;   
+} */

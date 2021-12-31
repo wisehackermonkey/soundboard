@@ -21,35 +21,23 @@
 <svelte:head>
 	<title>Home</title>
 </svelte:head>
-<main id="masonry-root">
+
+<!-- <section> -->
 	<h1>Sound FX Board by oran</h1>
+	<div class="masonry-root">
+		
+		<!-- <tbody>			<tr> -->
+				{#each soundfx as sound, i}
+					<!-- 		 <iframe width="110" height="200" src={formateFxURL(sound.url)} frameborder="0" scrolling="no"></iframe> -->
+					<!-- {console.log( formateAudioUrl(sound.url))}  -->
 
-	{#each soundfx as sound}
-		<!-- 		 <iframe width="110" height="200" src={formateFxURL(sound.url)} frameborder="0" scrolling="no"></iframe> -->
-		<!-- {console.log( formateAudioUrl(sound.url))}  -->
-		<SoundButton id="masonry-cell" title={sound.name} path={formateAudioUrl(sound.url)} />
-	{/each}
-</main>
-<section>
-	<h1>Sound FX Board by oran</h1>
-
-	<h1>
-		<div class="welcome">
-			<picture>
-				<source srcset="svelte-welcome.webp" type="image/webp" />
-				<img src="svelte-welcome.png" alt="Welcome" />
-			</picture>
-		</div>
-
-		to your new<br />SvelteKit app
-	</h1>
-
-	<h2>
-		try editing <strong>src/routes/index.svelte</strong>
-	</h2>
-
-	<Counter />
-</section>
+					<!-- <td> -->
+						<SoundButton class="masonry-cells" title={sound.name} path={formateAudioUrl(sound.url)} />
+					<!-- </td> -->
+				{/each}
+			<!-- </tr></tbody> -->
+	</div>
+<!-- </section> -->
 
 <style>
 	section {
@@ -59,6 +47,15 @@
 		align-items: center;
 		flex: 1;
 	}
+
+	.masonry-root {
+		display: flex;
+  flex-flow: row wrap;
+  /* This aligns items to the end line on main-axis */
+  justify-content: flex-end;
+	background-color: red;
+}
+  
 
 	h1 {
 		width: 100%;
