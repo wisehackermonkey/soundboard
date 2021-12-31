@@ -31,7 +31,6 @@
 		<!-- {console.log( formateAudioUrl(sound.url))}  -->
 
 		<!-- <td> -->
-			{sound.color}
 		<SoundButton  class="masonry-cells" color={sound.color} title={sound.name} path={formateAudioUrl(sound.url)} />
 		<!-- </td> -->
 	{/each}
@@ -53,7 +52,7 @@
 		flex-flow: row wrap;
 		/* This aligns items to the end line on main-axis */
 		justify-content: flex-end;
-		background: rgb(166, 255, 0);
+		/* background: rgb(166, 255, 0); */
 		padding: 20 px;
 	}
 
