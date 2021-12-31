@@ -22,7 +22,7 @@
 	<title>Home</title>
 </svelte:head>
 
-<!-- <section> -->
+<section>
 <h1>Sound FX Board by oran</h1>
 <div class="masonry-root">
 	<!-- <tbody>			<tr> -->
@@ -37,41 +37,30 @@
 	<!-- </tr></tbody> -->
 </div>
 
-<!-- </section> -->
+</section>
 <style>
 	section {
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
-		flex: 1;
+		/* flex: 1; */
+		
 	}
 
 	.masonry-root {
 		display: flex;
 		flex-flow: row wrap;
+		width: 100vw;
 		/* This aligns items to the end line on main-axis */
-		justify-content: flex-end;
+		justify-content: flex-start;
 		/* background: rgb(166, 255, 0); */
-		padding: 20 px;
+		
 	}
 
 	h1 {
 		width: 100%;
 	}
 
-	.welcome {
-		position: relative;
-		width: 100%;
-		height: 0;
-		padding: 0 0 calc(100% * 495 / 2048) 0;
-	}
-
-	.welcome img {
-		position: absolute;
-		width: 100%;
-		height: 100%;
-		top: 0;
-		display: block;
-	}
+ 
 </style>

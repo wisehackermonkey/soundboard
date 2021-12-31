@@ -12,7 +12,11 @@ export const soundfx = [
     {"name": "surprise motherfucka", "url": "surprise-motherfucka","color":""},
     {"name": "aint nobody got time", "url": "aint-nobody-got-time","color":""},
     {"name": "doh (homer)", "url": "doh","color":""},
+    {"name": "finish him", "url": "finishhim","color":""},
+    {"name": "spongebob a few moments later ", "url": "a-few-moments-later-hd","color":""},
+
     
+
     {"name": "elevator waiting", "url":"elevator_2jN6tnc","color":"blue"},
     {"name": "eye of the tiger", "url": "eye-of-the-tiger","color":"blue"},
     {"name": "shooting stars", "url":"untitled-1_qPskhfn","color":"blue"},
@@ -22,11 +26,12 @@ export const soundfx = [
     {"name": "snoop dogg meme", "url": "tmpbxydyrz3"},
     {"name": "thug life (snoop)", "url": "snoop-dogg-base-instrumental-mp3cut","color":""},
     {"name": "hello darkness my old frieend", "url": "saaaadaffleck","color":""},
-
+    {"name": "Mario Star Power", "url": "mario-star-power","color":""},
 
     {"name": "error sound", "url": "error_CDOxCYm","color":""},
     {"name": "ding-sound-effect", "url":"ding-sound-effect_2","color":""},
     
+    {"name": "cuek", "url": "cuek"}, 
     {"name": "mlg air horn", "url": "mlg-air-horn","color":""},
     {"name": "bateria tum dum tss", "url": "bateria-tum-dum-tss","color":""},
     {"name": "chewbacca", "url": "chewbacca","color":""},
@@ -37,6 +42,7 @@ export const soundfx = [
     {"name": "sonic ring", "url": "26f8b9_sonic_ring_sound_effect","color":""},
     {"name": "sad trombone", "url": "sad-trombone","color":""},
     {"name": "dun dun", "url": "dun-dun","color":""},
+    {"name": "minecraft hurt", "url": "minecraft-hurt","color":""},
     
 
     {"name": "censor beep 1", "url": "censor-beep-1","color":"red"},
@@ -52,19 +58,15 @@ export const soundfx = [
 
 
 
-    {"name": "minecraft hurt", "url": "minecraft-hurt","color":""},
-    {"name": "finish him", "url": "finishhim","color":""},
     {"name": "mario jump", "url": "mario-jump","color":""},
     {"name": "clapping", "url": "clapping","color":""},
     {"name": "wrong", "url": "wrong","color":""},
     {"name": "mario 1 up", "url": "mario-1-up","color":""},
 
     {"name": "ka ching", "url": "ka-ching","color":""},
-    {"name": "spongebob a few moments later ", "url": "a-few-moments-later-hd","color":""},
     {"name": "kids cheering", "url": "kids_cheering","color":""},
     {"name": "mario jump", "url": "mario-jump","color":""},
     {"name": "epic sax button", "url": "epic-sax-guy-plays-for-57-minutes","color":""},
-    {"name": "cuek", "url": "cuek"}, 
     {"name": "punch1", "url": "punch","color":""},
     {"name": "bruh meme", "url": "movie_1_C2K5NH0","color":""},
     {"name": "wilhelm scream", "url": "wilhelmscream","color":""},
