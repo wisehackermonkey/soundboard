@@ -1,5 +1,6 @@
 <script>
 	export let path = '';
+	export let color = "";
 	// ;// = {"name":"","url":"https://www.myinstants.com/media/sounds/owenwowson5.mp3"};
 	export let title = '';
 	import TrackHeading from '$lib/TrackHeading.svelte';
@@ -73,10 +74,11 @@
 	onMount(() => {
 		loadTrack();
 	});
+	let bg_color = "background: blue;";
 </script>
 
 <main>
-	<section transition:fade id="player-cont">
+	<section transition:fade class="player-cont" style="{`background: ${color}`}">
 		<TrackHeading {trackTitle} />
 
 		<Controls {isPlaying} on:playPause={playPauseAudio} />
@@ -84,13 +86,13 @@
 </main>
 
 <style>
-	#player-cont {
+	.player-cont {
 		margin: 10px;
 		width: 96px;
 		/* height: 170px; */
 		padding: 0.7rem 1.5rem 10px;
 		box-shadow: 0 0 5px black;
-		background: #222;
+		/* background: {}; */
 		color: #bbb;
 		border-radius: 5px 5px 0 0;
 	}
