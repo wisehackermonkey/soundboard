@@ -20,6 +20,36 @@ export const soundfx = [
 
 
 
+    { "name": "cuek", "url": "cuek", "color": "#ffffff" },
+    { "name": "mario jump", "url": "mario-jump", "color": "#DA4167" },
+    { "name": "mario 1 up", "url": "mario-1-up", "color": "#DA4167" },
+    { "name": "punch1", "url": "punch", "color": "#DA4167" },
+    { "name": "mlg air horn", "url": "mlg-air-horn", "color": "#DA4167" },
+    { "name": "bateria tum dum tss", "url": "bateria-tum-dum-tss", "color": "#DA4167" },
+    { "name": "chewbacca", "url": "chewbacca", "color": "#DA4167" },
+    { "name": "whip", "url": "whip", "color": "#DA4167" },
+    { "name": "buzzer", "url": "wrong-answer-sound-effect", "color": "#DA4167" },
+    { "name": "wrong", "url": "wrong", "color": "#DA4167" },
+    { "name": "hitmarkermp3", "url": "hitmarker_2", "color": "#DA4167" },
+    { "name": "bongo feet", "url": "bongo-feet", "color": "#DA4167" },
+    { "name": "sonic ring", "url": "26f8b9_sonic_ring_sound_effect", "color": "#DA4167" },
+    { "name": "sad trombone", "url": "sad-trombone", "color": "#DA4167" },
+    { "name": "dun dun", "url": "dun-dun", "color": "#DA4167" },
+    { "name": "ka ching", "url": "ka-ching", "color": "#DA4167" },
+
+    
+    { "name": "error sound", "url": "error_CDOxCYm", "color": "red" },
+    { "name": "ding-sound-effect", "url": "ding-sound-effect_2", "color": "red" },
+
+    { "name": "censor beep 1", "url": "censor-beep-1", "color": "red" },
+    { "name": "censor beep 2", "url": "censor-beep-2", "color": "red" },
+    { "name": "censor beep 3", "url": "censor-beep-3", "color": "red" },
+    { "name": "dolphin censor", "url": "spongebob-dolphin-censor", "color": "red" },
+    { "name": "epic meal time crow sound", "url": "epic-mealtime-crow-sound", "color": "red" },
+
+
+    
+
     { "name": "elevator waiting", "url": "elevator_2jN6tnc", "color": "blue" },
     { "name": "eye of the tiger", "url": "eye-of-the-tiger", "color": "blue" },
     { "name": "shooting stars", "url": "untitled-1_qPskhfn", "color": "blue" },
@@ -34,34 +64,7 @@ export const soundfx = [
     { "name": "sneaky snitch", "url": "sneaky-snitch", "color": "#EBEBD3" },
 
 
-    { "name": "cuek", "url": "cuek", "color": "#ffffff" },
-    { "name": "mario jump", "url": "mario-jump", "color": "#DA4167" },
-    { "name": "mario 1 up", "url": "mario-1-up", "color": "#DA4167" },
-    { "name": "punch1", "url": "punch", "color": "purple" },
-    { "name": "mlg air horn", "url": "mlg-air-horn", "color": "#DA4167" },
-    { "name": "bateria tum dum tss", "url": "bateria-tum-dum-tss", "color": "#DA4167" },
-    { "name": "chewbacca", "url": "chewbacca", "color": "#DA4167" },
-    { "name": "whip", "url": "whip", "color": "#DA4167" },
-    { "name": "buzzer", "url": "wrong-answer-sound-effect", "color": "#DA4167" },
-    { "name": "wrong", "url": "wrong", "color": "#DA4167" },
-    { "name": "hitmarkermp3", "url": "hitmarker_2", "color": "#DA4167" },
-    { "name": "bongo feet", "url": "bongo-feet", "color": "#DA4167" },
-    { "name": "sonic ring", "url": "26f8b9_sonic_ring_sound_effect", "color": "#DA4167" },
-    { "name": "sad trombone", "url": "sad-trombone", "color": "#DA4167" },
-    { "name": "dun dun", "url": "dun-dun", "color": "#DA4167" },
-    { "name": "ka ching", "url": "ka-ching", "color": "#DA4167" },
-
-    { "name": "error sound", "url": "error_CDOxCYm", "color": "red" },
-    { "name": "ding-sound-effect", "url": "ding-sound-effect_2", "color": "red" },
-
-    { "name": "censor beep 1", "url": "censor-beep-1", "color": "red" },
-    { "name": "censor beep 2", "url": "censor-beep-2", "color": "red" },
-    { "name": "censor beep 3", "url": "censor-beep-3", "color": "red" },
-    { "name": "dolphin censor", "url": "spongebob-dolphin-censor", "color": "red" },
-    { "name": "epic meal time crow sound", "url": "epic-mealtime-crow-sound", "color": "red" },
-
     { "name": "please stand by", "url": "please-stand-by-video-effect", "color": "#F4D35E" },
-
     { "name": "clapping", "url": "clapping", "color": "#F4D35E" },
     { "name": "sitcom audience laughing", "url": "sitcom-laughing", "color": "#F4D35E" },
     { "name": "door knocking sound effect", "url": "crazy-realistic-knocking-sound-troll-twitch-streamers_small", "color": "#F4D35E" },

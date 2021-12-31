@@ -12,6 +12,6 @@
       }
       
       h3 {
-          margin: 5px 0 10px;
+          margin: 10px 0px 9px -12px;
       }
   </style>
