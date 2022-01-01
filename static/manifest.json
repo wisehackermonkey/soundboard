@@ -1,10 +1,10 @@
 {
     "short_name": "svelte-pwa",
     "name": "svelte-test-pwa",
-    "start_url": "/",
+    "start_url": "/soundboard",
     "icons": [
       {
-        "src": "/android-chrome-512x512.png",
+        "src": "/soundboard/android-chrome-512x512.png",
         "type": "image/png",
         "sizes": "512x512"
       }
