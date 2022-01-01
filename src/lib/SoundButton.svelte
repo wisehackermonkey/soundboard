@@ -93,6 +93,6 @@
 		box-shadow: 0 0 5px black;
 		/* background: {}; */
 		color: #bbb;
-		border-radius: 5px 5px 0 0;
+		border-radius: 21px ;
 	}
 </style>

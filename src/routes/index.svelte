@@ -23,7 +23,7 @@
 </svelte:head>
 
 <section>
-<h1>Sound FX Board by oran</h1>
+<h1>Sound FX Board</h1>
 <div class="masonry-root">
 	<!-- <tbody>			<tr> -->
 	{#each soundfx as sound, i}
@@ -60,6 +60,8 @@
 
 	h1 {
 		width: 100%;
+		font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+		font-size: 3.5em;
 	}
 
  
