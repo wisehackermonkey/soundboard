@@ -5,8 +5,8 @@
 	const dev = process.env.NODE_ENV === 'development';
 
 	const icons = {
-		play: dev?"/button_normal.png":"/soundboard/button_normal.png",
-		pause:dev?"/button_pressed.png": "/soundboard/button_pressed.png"
+		play: "/button_normal.png",
+		pause:"/button_pressed.png"
 	}
 	
   export let isPlaying;
