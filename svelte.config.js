@@ -12,9 +12,9 @@ const config = {
 			fallback: null,
 			precompress: false
 		}),
-		paths: { 
-			base: dev  ? '' : "/soundboard"
-		},
+		// paths: { 
+		// 	base: dev  ? '' : "/soundboard"
+		// },
 		// hydrate the <div id="svelte"> element in src/app.html
 		target: '#svelte',
 		appDir: 'internal'
